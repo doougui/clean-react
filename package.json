@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "typecheck": "tsc --project tsconfig.json --noEmit",
+    "typecheck": "tsc -p tsconfig.json src/*.ts --noEmit",
     "test": "jest --passWithNoTests",
     "test:watch": "npm test -- --watch",
     "test:staged": "npm test -- --findRelatedTests",
