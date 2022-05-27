@@ -8,7 +8,8 @@
     "test": "jest --passWithNoTests",
     "test:watch": "npm test -- --watch",
     "test:staged": "npm test -- --findRelatedTests",
-    "test:ci": "npm test -- --coverage"
+    "test:ci": "npm test -- --coverage",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
@@ -25,7 +26,7 @@
     "eslint-plugin-promise": "^5.2.0",
     "faker": "^4.1.0",
     "git-commit-msg-linter": "^2.4.2",
-    "husky": "^8.0.1",
+    "husky": "^7.0.0",
     "jest": "^28.1.0",
     "lint-staged": "^12.4.1",
     "ts-jest": "^28.0.2",
